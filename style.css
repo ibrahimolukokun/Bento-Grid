@@ -98,10 +98,21 @@
     color: #666;
 }
 
+.image-container{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
 .card img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
+    max-height: 435px;
 }
 
 .text-content{
@@ -137,12 +148,6 @@
 .description-container{
     width: 100%;
     height: auto;
-}
-
-.image-container{
-    width: 100%;
-    height: auto;
-    background-color: #fff;
 }
 
 @media (max-width: 768px) {
